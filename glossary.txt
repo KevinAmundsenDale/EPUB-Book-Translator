@@ -1,0 +1,8 @@
+Do not translate these names:
+Darth Vader
+Luke Skywalker
+
+Translate these consistently:
+lightsaber = lyssverd
+Youngling = yngling
+
