@@ -325,8 +325,6 @@ def translate_batch(paragraphs: list[str], glossary: str, file_name: str | None 
     schema = make_schema(len(paragraphs))
     schema_text = json.dumps(schema, ensure_ascii=False)
     joined = "\n\n".join(f"[{i+1}] {p}" for i, p in enumerate(paragraphs))
-    print(joined)
-    exit(0)
 
     prompt = f"""
 You are a professional literary translator from {ORIGINAL_LANGUAGE} to {TRANSLATE_TO_LANGUAGE}.
